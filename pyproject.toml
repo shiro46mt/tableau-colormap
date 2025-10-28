@@ -1,0 +1,24 @@
+[project]
+name = "tableau-colormap"
+version = "0.1.0"
+description = "Applies Tableau's new color maps with only an import statement"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  {name = "SHIRO", email = "39456646+shiro46mt@users.noreply.github.com"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Framework :: Matplotlib",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+  "matplotlib",
+  "cycler",
+]
+
+[project.urls]
+Repository = "https://github.com/shiro46mt/tableau-colormap.git"
